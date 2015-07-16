@@ -3856,3 +3856,556 @@ spawned uWSGI worker 10 (pid: 20498, cores: 1)
 [pid: 20490|app: 0|req: 13/21] 172.16.0.14 () {42 vars in 789 bytes} [Thu Jul 16 04:50:47 2015] GET /acs/ => generated 1907 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
 [pid: 20490|app: 0|req: 14/22] 172.16.0.14 () {42 vars in 799 bytes} [Thu Jul 16 04:50:50 2015] GET /acs/admin => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 146 bytes (1 switches on core 0)
 [pid: 20489|app: 0|req: 1/23] 172.16.0.14 () {42 vars in 801 bytes} [Thu Jul 16 04:50:50 2015] GET /acs/admin/ => generated 5473 bytes in 109 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 20493|app: 0|req: 9/24] 172.16.0.14 () {42 vars in 789 bytes} [Thu Jul 16 06:43:01 2015] GET /acs/ => generated 1907 bytes in 372 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 20490|app: 0|req: 15/25] 172.16.0.14 () {42 vars in 799 bytes} [Thu Jul 16 06:43:05 2015] GET /acs/admin => generated 0 bytes in 212 msecs (HTTP/1.1 301) 3 headers in 146 bytes (1 switches on core 0)
+[pid: 20493|app: 0|req: 10/26] 172.16.0.14 () {42 vars in 801 bytes} [Thu Jul 16 06:43:05 2015] GET /acs/admin/ => generated 5473 bytes in 484 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 20490|app: 0|req: 16/27] 172.16.0.14 () {42 vars in 797 bytes} [Thu Jul 16 06:43:08 2015] GET /acs/xmin => generated 1919 bytes in 152 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 20490|app: 0|req: 17/28] 172.16.0.14 () {42 vars in 799 bytes} [Thu Jul 16 06:43:14 2015] GET /acs/admin => generated 0 bytes in 2 msecs (HTTP/1.1 301) 3 headers in 146 bytes (1 switches on core 0)
+[pid: 20493|app: 0|req: 11/29] 172.16.0.14 () {42 vars in 801 bytes} [Thu Jul 16 06:43:14 2015] GET /acs/admin/ => generated 5473 bytes in 79 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 20490|app: 0|req: 18/30] 172.16.0.14 () {42 vars in 797 bytes} [Thu Jul 16 06:43:20 2015] GET /acs/xmin => generated 1919 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 20490|app: 0|req: 19/31] 172.16.0.14 () {42 vars in 797 bytes} [Thu Jul 16 06:43:40 2015] GET /acs/xmin => generated 1919 bytes in 22 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Thu Jul 16 06:45:12 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:45:12 2015 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11 (64bit) on [Thu Jul 16 12:47:08 2015] ***
+compiled with version: 4.8.3 20140911 (Red Hat 4.8.3-9) on 13 July 2015 13:27:32
+os: Linux-3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 11:36:42 UTC 2015
+nodename: nms
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/padmin/ubdirector/acs/acsserv
+detected binary path: /home/padmin/ubdirector/acs/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/padmin/ubdirector/acs/acsserv
+your processes number limit is 3905
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/padmin/ubdirector/acs/acsserv/acsserv.sock fd 3
+Python version: 2.7.5 (default, Jun 24 2015, 00:41:19)  [GCC 4.8.3 20140911 (Red Hat 4.8.3-9)]
+Set PythonHome to /home/padmin/ubdirector/acs
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21080c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21080c0 pid: 13908 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13908)
+spawned uWSGI worker 1 (pid: 13913, cores: 1)
+spawned uWSGI worker 2 (pid: 13914, cores: 1)
+spawned uWSGI worker 3 (pid: 13915, cores: 1)
+spawned uWSGI worker 4 (pid: 13916, cores: 1)
+spawned uWSGI worker 5 (pid: 13917, cores: 1)
+spawned uWSGI worker 6 (pid: 13918, cores: 1)
+spawned uWSGI worker 7 (pid: 13919, cores: 1)
+spawned uWSGI worker 8 (pid: 13920, cores: 1)
+spawned uWSGI worker 9 (pid: 13921, cores: 1)
+spawned uWSGI worker 10 (pid: 13922, cores: 1)
+[pid: 13922|app: 0|req: 1/1] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:49 2015] GET /acs/xmin => generated 90428 bytes in 203 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 2/2] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:51 2015] GET /acs/xmin => generated 90428 bytes in 161 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 3/3] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:51 2015] GET /acs/xmin => generated 90428 bytes in 113 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 4/4] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:52 2015] GET /acs/xmin => generated 90428 bytes in 178 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 5/5] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:53 2015] GET /acs/xmin => generated 90428 bytes in 152 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 6/6] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:54 2015] GET /acs/xmin => generated 90428 bytes in 121 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 7/7] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:56 2015] GET /acs/xmin => generated 90428 bytes in 162 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 8/8] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:56 2015] GET /acs/xmin => generated 90428 bytes in 183 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 9/9] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:57 2015] GET /acs/xmin => generated 90428 bytes in 155 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 10/10] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 06:47:58 2015] GET /acs/xmin => generated 90428 bytes in 152 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 11/11] 172.16.0.14 () {42 vars in 789 bytes} [Thu Jul 16 06:48:04 2015] GET /acs/ => generated 76696 bytes in 84 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 13922|app: 0|req: 12/12] 172.16.0.14 () {42 vars in 799 bytes} [Thu Jul 16 06:48:10 2015] GET /acs/admin => generated 90207 bytes in 129 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.11 (64bit) on [Thu Jul 16 12:49:50 2015] ***
+compiled with version: 4.8.3 20140911 (Red Hat 4.8.3-9) on 13 July 2015 13:27:32
+os: Linux-3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 11:36:42 UTC 2015
+nodename: nms
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/padmin/ubdirector/acs/acsserv
+detected binary path: /home/padmin/ubdirector/acs/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/padmin/ubdirector/acs/acsserv
+your processes number limit is 3905
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/padmin/ubdirector/acs/acsserv/acsserv.sock fd 3
+Python version: 2.7.5 (default, Jun 24 2015, 00:41:19)  [GCC 4.8.3 20140911 (Red Hat 4.8.3-9)]
+Set PythonHome to /home/padmin/ubdirector/acs
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa960c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xa960c0 pid: 13987 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13987)
+spawned uWSGI worker 1 (pid: 13992, cores: 1)
+spawned uWSGI worker 2 (pid: 13993, cores: 1)
+spawned uWSGI worker 3 (pid: 13994, cores: 1)
+spawned uWSGI worker 4 (pid: 13995, cores: 1)
+spawned uWSGI worker 5 (pid: 13996, cores: 1)
+spawned uWSGI worker 6 (pid: 13997, cores: 1)
+spawned uWSGI worker 7 (pid: 13998, cores: 1)
+spawned uWSGI worker 8 (pid: 13999, cores: 1)
+spawned uWSGI worker 9 (pid: 14000, cores: 1)
+spawned uWSGI worker 10 (pid: 14001, cores: 1)
+Thu Jul 16 06:50:06 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:06 2015 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 06:50:11 2015 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11 (64bit) on [Thu Jul 16 12:51:58 2015] ***
+compiled with version: 4.8.3 20140911 (Red Hat 4.8.3-9) on 13 July 2015 13:27:32
+os: Linux-3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 11:36:42 UTC 2015
+nodename: nms
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/padmin/ubdirector/acs/acsserv
+detected binary path: /home/padmin/ubdirector/acs/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/padmin/ubdirector/acs/acsserv
+your processes number limit is 3905
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/padmin/ubdirector/acs/acsserv/acsserv.sock fd 3
+Python version: 2.7.5 (default, Jun 24 2015, 00:41:19)  [GCC 4.8.3 20140911 (Red Hat 4.8.3-9)]
+Set PythonHome to /home/padmin/ubdirector/acs
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ec20c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1ec20c0 pid: 14059 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14059)
+spawned uWSGI worker 1 (pid: 14064, cores: 1)
+spawned uWSGI worker 2 (pid: 14065, cores: 1)
+spawned uWSGI worker 3 (pid: 14066, cores: 1)
+spawned uWSGI worker 4 (pid: 14067, cores: 1)
+spawned uWSGI worker 5 (pid: 14068, cores: 1)
+spawned uWSGI worker 6 (pid: 14069, cores: 1)
+spawned uWSGI worker 7 (pid: 14070, cores: 1)
+spawned uWSGI worker 8 (pid: 14071, cores: 1)
+spawned uWSGI worker 9 (pid: 14072, cores: 1)
+spawned uWSGI worker 10 (pid: 14073, cores: 1)
+[pid: 14067|app: 0|req: 1/1] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 06:52:04 2015] GET /acs/admin => generated 83540 bytes in 122 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 14067|app: 0|req: 2/2] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 06:52:05 2015] GET /acs/admin => generated 83540 bytes in 122 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 14072|app: 0|req: 1/3] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 06:52:06 2015] GET /acs/admin => generated 83540 bytes in 124 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Thu Jul 16 06:52:06 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acs/admin (ip 172.16.0.14) !!!
+Thu Jul 16 06:52:06 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET /acs/admin (172.16.0.14)
+IOError: write error
+[pid: 14067|app: 0|req: 3/4] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 06:52:06 2015] GET /acs/admin => generated 0 bytes in 96 msecs (HTTP/1.1 500) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 14072|app: 0|req: 2/5] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 06:52:06 2015] GET /acs/admin => generated 83540 bytes in 98 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 14067|app: 0|req: 4/6] 172.16.0.14 () {48 vars in 899 bytes} [Thu Jul 16 07:27:53 2015] GET /acs/admin/ => generated 5473 bytes in 93 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 14072|app: 0|req: 3/7] 172.16.0.14 () {42 vars in 743 bytes} [Thu Jul 16 07:27:58 2015] GET /acs/ => generated 2019 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14067|app: 0|req: 5/8] 172.16.0.14 () {44 vars in 647 bytes} [Thu Jul 16 07:28:38 2015] GET /acs/ => generated 2019 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 14067|app: 0|req: 6/9] 172.16.0.14 () {42 vars in 743 bytes} [Thu Jul 16 07:31:31 2015] GET /acs/ => generated 2019 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Thu Jul 16 07:31:57 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:31:57 2015 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11 (64bit) on [Thu Jul 16 13:32:02 2015] ***
+compiled with version: 4.8.3 20140911 (Red Hat 4.8.3-9) on 13 July 2015 13:27:32
+os: Linux-3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 11:36:42 UTC 2015
+nodename: nms
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/padmin/ubdirector/acs/acsserv
+detected binary path: /home/padmin/ubdirector/acs/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/padmin/ubdirector/acs/acsserv
+your processes number limit is 3905
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/padmin/ubdirector/acs/acsserv/acsserv.sock fd 3
+Python version: 2.7.5 (default, Jun 24 2015, 00:41:19)  [GCC 4.8.3 20140911 (Red Hat 4.8.3-9)]
+Set PythonHome to /home/padmin/ubdirector/acs
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1df00c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1df00c0 pid: 15020 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15020)
+spawned uWSGI worker 1 (pid: 15025, cores: 1)
+spawned uWSGI worker 2 (pid: 15026, cores: 1)
+spawned uWSGI worker 3 (pid: 15027, cores: 1)
+spawned uWSGI worker 4 (pid: 15028, cores: 1)
+spawned uWSGI worker 5 (pid: 15029, cores: 1)
+spawned uWSGI worker 6 (pid: 15030, cores: 1)
+spawned uWSGI worker 7 (pid: 15031, cores: 1)
+spawned uWSGI worker 8 (pid: 15032, cores: 1)
+spawned uWSGI worker 9 (pid: 15033, cores: 1)
+spawned uWSGI worker 10 (pid: 15034, cores: 1)
+[pid: 15028|app: 0|req: 1/1] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:40:25 2015] GET /acs/ => generated 2019 bytes in 35 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15033|app: 0|req: 1/2] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:40:25 2015] GET /acs/ => generated 2019 bytes in 32 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15028|app: 0|req: 2/3] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:40:25 2015] GET /acs/ => generated 2019 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15028|app: 0|req: 3/4] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:40:26 2015] GET /acs/ => generated 2019 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15032|app: 0|req: 1/5] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:40:26 2015] GET /acs/ => generated 2019 bytes in 39 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Thu Jul 16 07:40:45 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:40:45 2015 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11 (64bit) on [Thu Jul 16 13:40:52 2015] ***
+compiled with version: 4.8.3 20140911 (Red Hat 4.8.3-9) on 13 July 2015 13:27:32
+os: Linux-3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 11:36:42 UTC 2015
+nodename: nms
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/padmin/ubdirector/acs/acsserv
+detected binary path: /home/padmin/ubdirector/acs/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/padmin/ubdirector/acs/acsserv
+your processes number limit is 3905
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/padmin/ubdirector/acs/acsserv/acsserv.sock fd 3
+Python version: 2.7.5 (default, Jun 24 2015, 00:41:19)  [GCC 4.8.3 20140911 (Red Hat 4.8.3-9)]
+Set PythonHome to /home/padmin/ubdirector/acs
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x190e0c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x190e0c0 pid: 15247 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15247)
+spawned uWSGI worker 1 (pid: 15252, cores: 1)
+spawned uWSGI worker 2 (pid: 15253, cores: 1)
+spawned uWSGI worker 3 (pid: 15254, cores: 1)
+spawned uWSGI worker 4 (pid: 15255, cores: 1)
+spawned uWSGI worker 5 (pid: 15256, cores: 1)
+spawned uWSGI worker 6 (pid: 15257, cores: 1)
+spawned uWSGI worker 7 (pid: 15258, cores: 1)
+spawned uWSGI worker 8 (pid: 15259, cores: 1)
+spawned uWSGI worker 9 (pid: 15260, cores: 1)
+spawned uWSGI worker 10 (pid: 15261, cores: 1)
+[pid: 15255|app: 0|req: 1/1] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:40:59 2015] GET /acs/ => generated 2019 bytes in 38 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15258|app: 0|req: 1/2] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:00 2015] GET /acs/ => generated 2019 bytes in 46 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 2/3] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:01 2015] GET /acs/ => generated 2019 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15256|app: 0|req: 1/4] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:01 2015] GET /acs/ => generated 2019 bytes in 37 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 3/5] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:01 2015] GET /acs/ => generated 2019 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 4/6] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:02 2015] GET /acs/ => generated 2019 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15260|app: 0|req: 1/7] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:02 2015] GET /acs/ => generated 2019 bytes in 24 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 5/8] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:02 2015] GET /acs/ => generated 2019 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15258|app: 0|req: 2/9] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:02 2015] GET /acs/ => generated 2019 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15261|app: 0|req: 1/10] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:03 2015] GET /acs/ => generated 2019 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 6/11] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:03 2015] GET /acs/ => generated 2019 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 7/12] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:03 2015] GET /acs/ => generated 2019 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15258|app: 0|req: 3/13] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:03 2015] GET /acs/ => generated 2019 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15257|app: 0|req: 1/14] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 07:41:03 2015] GET /acs/ => generated 2019 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 8/15] 172.16.0.14 () {44 vars in 810 bytes} [Thu Jul 16 07:41:14 2015] GET /acs/admin/ => generated 5473 bytes in 110 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 9/16] 172.16.0.14 () {42 vars in 763 bytes} [Thu Jul 16 07:41:44 2015] GET /acs/ubran_info => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 151 bytes (1 switches on core 0)
+[pid: 15256|app: 0|req: 2/17] 172.16.0.14 () {42 vars in 765 bytes} [Thu Jul 16 07:41:44 2015] GET /acs/ubran_info/ => generated 51974 bytes in 108 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 15255|app: 0|req: 10/18] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:46:09 2015] GET /acs/ubran_info/ => generated 52419 bytes in 208 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Thu Jul 16 07:46:31 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 07:46:31 2015 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11 (64bit) on [Thu Jul 16 13:46:36 2015] ***
+compiled with version: 4.8.3 20140911 (Red Hat 4.8.3-9) on 13 July 2015 13:27:32
+os: Linux-3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 11:36:42 UTC 2015
+nodename: nms
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/padmin/ubdirector/acs/acsserv
+detected binary path: /home/padmin/ubdirector/acs/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/padmin/ubdirector/acs/acsserv
+your processes number limit is 3905
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/padmin/ubdirector/acs/acsserv/acsserv.sock fd 3
+Python version: 2.7.5 (default, Jun 24 2015, 00:41:19)  [GCC 4.8.3 20140911 (Red Hat 4.8.3-9)]
+Set PythonHome to /home/padmin/ubdirector/acs
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8650c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8650c0 pid: 15393 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15393)
+spawned uWSGI worker 1 (pid: 15398, cores: 1)
+spawned uWSGI worker 2 (pid: 15399, cores: 1)
+spawned uWSGI worker 3 (pid: 15400, cores: 1)
+spawned uWSGI worker 4 (pid: 15401, cores: 1)
+spawned uWSGI worker 5 (pid: 15402, cores: 1)
+spawned uWSGI worker 6 (pid: 15403, cores: 1)
+spawned uWSGI worker 7 (pid: 15404, cores: 1)
+spawned uWSGI worker 8 (pid: 15405, cores: 1)
+spawned uWSGI worker 9 (pid: 15406, cores: 1)
+spawned uWSGI worker 10 (pid: 15407, cores: 1)
+[pid: 15407|app: 0|req: 1/1] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:46:42 2015] GET /acs/ubran_info/ => generated 40 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 2/2] 172.16.0.14 () {42 vars in 743 bytes} [Thu Jul 16 07:46:47 2015] GET /acs/ => generated 2019 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 3/3] 172.16.0.14 () {42 vars in 753 bytes} [Thu Jul 16 07:46:53 2015] GET /acs/xmin/ => generated 2034 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 4/4] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 07:47:37 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 5/5] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 07:47:38 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 6/6] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 07:47:38 2015] GET /acs/xmin/ => generated 2034 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+/home/padmin/ubdirector/acs/lib/python2.7/site-packages/django/contrib/admin/util.py:7: RemovedInDjango19Warning: The django.contrib.admin.util module has been renamed. Use django.contrib.admin.utils instead.
+  "Use django.contrib.admin.utils instead.", RemovedInDjango19Warning)
+
+[pid: 15406|app: 0|req: 1/7] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 07:47:38 2015] GET /acs/xmin/ => generated 118718 bytes in 200 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 7/8] 172.16.0.14 () {42 vars in 765 bytes} [Thu Jul 16 07:48:07 2015] GET /acs/ubran_info/ => generated 40 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 8/9] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:23 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 9/10] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:24 2015] GET /acs/ubran_info/ => generated 40 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 10/11] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:25 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 11/12] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:26 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 12/13] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:26 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 13/14] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:26 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 14/15] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:26 2015] GET /acs/ubran_info/ => generated 40 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 15/16] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:27 2015] GET /acs/ubran_info/ => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Thu Jul 16 07:48:27 2015 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /acs/ubran_info/ (ip 172.16.0.14) !!!
+Thu Jul 16 07:48:27 2015 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 296] during GET /acs/ubran_info/ (172.16.0.14)
+IOError: write error
+[pid: 15406|app: 0|req: 2/17] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:26 2015] GET /acs/ubran_info/ => generated 0 bytes in 215 msecs (HTTP/1.1 500) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 15407|app: 0|req: 16/18] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:35 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 17/19] 172.16.0.14 () {46 vars in 818 bytes} [Thu Jul 16 07:48:36 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 18/20] 172.16.0.14 () {46 vars in 818 bytes} [Thu Jul 16 07:48:37 2015] GET /acs/ubran_info/ => generated 40 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 19/21] 172.16.0.14 () {46 vars in 818 bytes} [Thu Jul 16 07:48:37 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 20/22] 172.16.0.14 () {46 vars in 818 bytes} [Thu Jul 16 07:48:38 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 21/23] 172.16.0.14 () {46 vars in 818 bytes} [Thu Jul 16 07:48:38 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 22/24] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:42 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 23/25] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:43 2015] GET /acs/ubran_info/ => generated 40 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 24/26] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:43 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 25/27] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:43 2015] GET /acs/ubran_info/ => generated 40 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 26/28] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:43 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 27/29] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:48:44 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 28/30] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 07:49:41 2015] GET /acs/ubran_info/ => generated 40 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 29/31] 172.16.0.14 () {42 vars in 811 bytes} [Thu Jul 16 07:49:52 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 30/32] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:49:56 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 31/33] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:49:56 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/home/padmin/ubdirector/acs/lib/python2.7/site-packages/django/contrib/admin/util.py:7: RemovedInDjango19Warning: The django.contrib.admin.util module has been renamed. Use django.contrib.admin.utils instead.
+  "Use django.contrib.admin.utils instead.", RemovedInDjango19Warning)
+
+[pid: 15405|app: 0|req: 1/34] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:49:56 2015] GET /acs/ubran_info/ => generated 118888 bytes in 224 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 32/35] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:50:02 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 33/36] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:50:03 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 34/37] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:50:03 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 35/38] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:50:04 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 36/39] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:50:04 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 37/40] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:50:05 2015] GET /acs/ubran_info/ => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 38/41] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 07:50:05 2015] GET /acs/ubran_info/ => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 15407|app: 0|req: 39/42] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 08:10:33 2015] GET /acs/ubran_info/ => generated 40 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Thu Jul 16 08:23:10 2015 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Jul 16 08:23:10 2015 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11 (64bit) on [Thu Jul 16 14:23:22 2015] ***
+compiled with version: 4.8.3 20140911 (Red Hat 4.8.3-9) on 13 July 2015 13:27:32
+os: Linux-3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 11:36:42 UTC 2015
+nodename: nms
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/padmin/ubdirector/acs/acsserv
+detected binary path: /home/padmin/ubdirector/acs/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/padmin/ubdirector/acs/acsserv
+your processes number limit is 3905
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/padmin/ubdirector/acs/acsserv/acsserv.sock fd 3
+Python version: 2.7.5 (default, Jun 24 2015, 00:41:19)  [GCC 4.8.3 20140911 (Red Hat 4.8.3-9)]
+Set PythonHome to /home/padmin/ubdirector/acs
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd391a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xd391a0 pid: 16270 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16270)
+spawned uWSGI worker 1 (pid: 16275, cores: 1)
+spawned uWSGI worker 2 (pid: 16276, cores: 1)
+spawned uWSGI worker 3 (pid: 16277, cores: 1)
+spawned uWSGI worker 4 (pid: 16278, cores: 1)
+spawned uWSGI worker 5 (pid: 16279, cores: 1)
+spawned uWSGI worker 6 (pid: 16280, cores: 1)
+spawned uWSGI worker 7 (pid: 16281, cores: 1)
+spawned uWSGI worker 8 (pid: 16282, cores: 1)
+spawned uWSGI worker 9 (pid: 16283, cores: 1)
+spawned uWSGI worker 10 (pid: 16284, cores: 1)
+unable to stat() /home/padmin/ubdirector/acs/acsserv/uwsgi-reload, events will be triggered as soon as the file is created
+/home/padmin/ubdirector/acs/lib/python2.7/site-packages/django/contrib/admin/util.py:7: RemovedInDjango19Warning: The django.contrib.admin.util module has been renamed. Use django.contrib.admin.utils instead.
+  "Use django.contrib.admin.utils instead.", RemovedInDjango19Warning)
+
+[pid: 16284|app: 0|req: 1/1] 172.16.0.14 () {44 vars in 774 bytes} [Thu Jul 16 08:23:39 2015] GET /acs/ => generated 118654 bytes in 222 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 2/2] 172.16.0.14 () {44 vars in 810 bytes} [Thu Jul 16 08:23:53 2015] GET /acs/admin/ => generated 118780 bytes in 175 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 3/3] 172.16.0.14 () {44 vars in 786 bytes} [Thu Jul 16 08:24:55 2015] GET /acs/admin/ => generated 5473 bytes in 94 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 4/4] 172.16.0.14 () {42 vars in 765 bytes} [Thu Jul 16 08:25:04 2015] GET /acs/ubran_info/ => generated 41 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 5/5] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 08:25:44 2015] GET /acs/ubran_info/ => generated 41 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 6/6] 172.16.0.14 () {44 vars in 810 bytes} [Thu Jul 16 08:25:52 2015] GET /acs/admin/ => generated 5473 bytes in 55 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 7/7] 172.16.0.14 () {46 vars in 841 bytes} [Thu Jul 16 08:26:08 2015] GET /acs/admin/ => generated 5473 bytes in 30 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 8/8] 172.16.0.14 () {42 vars in 751 bytes} [Thu Jul 16 08:26:14 2015] GET /acs/xmin => generated 2031 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 9/9] 172.16.0.14 () {42 vars in 753 bytes} [Thu Jul 16 08:26:40 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 10/10] 172.16.0.14 () {42 vars in 743 bytes} [Thu Jul 16 08:26:44 2015] GET /acs/ => generated 2019 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 11/11] 172.16.0.14 () {44 vars in 810 bytes} [Thu Jul 16 08:26:48 2015] GET /acs/admin/ => generated 5473 bytes in 54 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 12/12] 172.16.0.14 () {42 vars in 765 bytes} [Thu Jul 16 08:26:53 2015] GET /acs/ubran_info/ => generated 41 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 13/13] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 08:26:58 2015] GET /acs/ubran_info/ => generated 41 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 14/14] 172.16.0.14 () {42 vars in 751 bytes} [Thu Jul 16 08:27:03 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 15/15] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:27:15 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 16/16] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:27:15 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 17/17] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:27:16 2015] GET /acs/xmin => generated 2031 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 18/18] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:27:16 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+/home/padmin/ubdirector/acs/lib/python2.7/site-packages/django/contrib/admin/util.py:7: RemovedInDjango19Warning: The django.contrib.admin.util module has been renamed. Use django.contrib.admin.utils instead.
+  "Use django.contrib.admin.utils instead.", RemovedInDjango19Warning)
+
+[pid: 16277|app: 0|req: 1/19] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:27:16 2015] GET /acs/xmin => generated 132152 bytes in 234 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 19/20] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:27:19 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 20/21] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 08:38:25 2015] GET /acs/ubran_info/ => generated 41 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 21/22] 172.16.0.14 () {44 vars in 820 bytes} [Thu Jul 16 08:39:33 2015] GET /acs/ => generated 2019 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 22/23] 172.16.0.14 () {42 vars in 797 bytes} [Thu Jul 16 08:39:39 2015] GET /acs/xmin => generated 2031 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 23/24] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:39:43 2015] GET /acs/xmin => generated 2031 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 24/25] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:39:44 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 25/26] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:39:44 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 26/27] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:39:44 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 27/28] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:39:44 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 28/29] 172.16.0.14 () {42 vars in 799 bytes} [Thu Jul 16 08:39:51 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 29/30] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 08:49:36 2015] GET /acs/ubran_info/ => generated 41 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 30/31] 172.16.0.14 () {44 vars in 842 bytes} [Thu Jul 16 08:52:00 2015] GET /acs/ubran_info/ => generated 41 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 31/32] 172.16.0.14 () {42 vars in 797 bytes} [Thu Jul 16 08:52:04 2015] GET /acs/xmin => generated 2031 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 32/33] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:06 2015] GET /acs/xmin => generated 2031 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 33/34] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:07 2015] GET /acs/xmin => generated 2031 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16277|app: 0|req: 2/35] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:07 2015] GET /acs/xmin => generated 132271 bytes in 140 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 34/36] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:07 2015] GET /acs/xmin => generated 2031 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 35/37] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:08 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16277|app: 0|req: 3/38] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:08 2015] GET /acs/xmin => generated 132271 bytes in 188 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 36/39] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:08 2015] GET /acs/xmin => generated 2031 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 37/40] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:09 2015] GET /acs/xmin => generated 2031 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 38/41] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:57 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 39/42] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:58 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 40/43] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:58 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 41/44] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:59 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 42/45] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:59 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 43/46] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:52:59 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 44/47] 172.16.0.14 () {44 vars in 828 bytes} [Thu Jul 16 08:53:02 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 45/48] 172.16.0.14 () {42 vars in 799 bytes} [Thu Jul 16 08:53:07 2015] GET /acs/admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 146 bytes (1 switches on core 0)
+/home/padmin/ubdirector/acs/lib/python2.7/site-packages/django/contrib/admin/util.py:7: RemovedInDjango19Warning: The django.contrib.admin.util module has been renamed. Use django.contrib.admin.utils instead.
+  "Use django.contrib.admin.utils instead.", RemovedInDjango19Warning)
+
+[pid: 16280|app: 0|req: 1/49] 172.16.0.14 () {42 vars in 801 bytes} [Thu Jul 16 08:53:07 2015] GET /acs/admin/ => generated 118612 bytes in 159 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 46/50] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:23 2015] GET /acs/xmin => generated 2031 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 47/51] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:26 2015] GET /acs/xmin => generated 2031 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 48/52] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:26 2015] GET /acs/xmin => generated 2031 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16277|app: 0|req: 4/53] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:27 2015] GET /acs/xmin => generated 132128 bytes in 166 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 49/54] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:27 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 50/55] 172.16.0.14 () {42 vars in 751 bytes} [Thu Jul 16 08:56:27 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 51/56] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:29 2015] GET /acs/xmin => generated 2031 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 52/57] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:31 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 53/58] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:32 2015] GET /acs/xmin => generated 2031 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 54/59] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:32 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 55/60] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:33 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 56/61] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:34 2015] GET /acs/xmin => generated 2031 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 57/62] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:34 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 58/63] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:35 2015] GET /acs/xmin => generated 2031 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 59/64] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:35 2015] GET /acs/xmin => generated 2031 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 60/65] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:36 2015] GET /acs/xmin => generated 2031 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 61/66] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:36 2015] GET /acs/xmin => generated 2031 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 62/67] 172.16.0.14 () {44 vars in 782 bytes} [Thu Jul 16 08:56:40 2015] GET /acs/xmin => generated 2031 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 63/68] 172.16.0.14 () {42 vars in 753 bytes} [Thu Jul 16 08:56:42 2015] GET /acs/xmin/ => generated 2034 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 64/69] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 08:58:08 2015] GET /acs/xmin/ => generated 2034 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 65/70] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 08:58:09 2015] GET /acs/xmin/ => generated 2034 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 66/71] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 08:58:09 2015] GET /acs/xmin/ => generated 2034 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 67/72] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 08:58:10 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 68/73] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 08:58:11 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 69/74] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 08:58:11 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 70/75] 172.16.0.14 () {44 vars in 784 bytes} [Thu Jul 16 08:58:11 2015] GET /acs/xmin/ => generated 2034 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 71/76] 172.16.0.14 () {44 vars in 810 bytes} [Thu Jul 16 08:58:17 2015] GET /acs/admin/ => generated 5473 bytes in 58 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 72/77] 172.16.0.14 () {44 vars in 832 bytes} [Thu Jul 16 08:58:38 2015] GET /acs/admin/ => generated 5473 bytes in 53 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 73/78] 172.16.0.14 () {44 vars in 832 bytes} [Thu Jul 16 08:58:39 2015] GET /acs/admin/ => generated 5473 bytes in 57 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 74/79] 172.16.0.14 () {42 vars in 799 bytes} [Thu Jul 16 08:58:43 2015] GET /acs/xmin/ => generated 2034 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 75/80] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:33 2015] GET /acs/xmin/ => generated 2034 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 76/81] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:33 2015] GET /acs/xmin/ => generated 2034 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 77/82] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:34 2015] GET /acs/xmin/ => generated 2034 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 78/83] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:34 2015] GET /acs/xmin/ => generated 2034 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 79/84] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:34 2015] GET /acs/xmin/ => generated 2034 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 80/85] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:35 2015] GET /acs/xmin/ => generated 2034 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 81/86] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:35 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 82/87] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:35 2015] GET /acs/xmin/ => generated 2034 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 83/88] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:01:35 2015] GET /acs/xmin/ => generated 2034 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 84/89] 172.16.0.14 () {46 vars in 841 bytes} [Thu Jul 16 09:03:21 2015] GET /acs/admin/ => generated 5473 bytes in 33 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 85/90] 172.16.0.14 () {42 vars in 751 bytes} [Thu Jul 16 09:03:27 2015] GET /acs/xmin => generated 2031 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 86/91] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 09:04:16 2015] GET /acs/ubran_info/ => generated 41 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 87/92] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 09:04:16 2015] GET /acs/ubran_info/ => generated 41 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 88/93] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 09:04:17 2015] GET /acs/ubran_info/ => generated 41 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16277|app: 0|req: 5/94] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 09:04:17 2015] GET /acs/ubran_info/ => generated 117935 bytes in 143 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 89/95] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 09:04:17 2015] GET /acs/ubran_info/ => generated 41 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 90/96] 172.16.0.14 () {44 vars in 830 bytes} [Thu Jul 16 09:09:56 2015] GET /acs/admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 146 bytes (1 switches on core 0)
+[pid: 16277|app: 0|req: 6/97] 172.16.0.14 () {44 vars in 832 bytes} [Thu Jul 16 09:09:56 2015] GET /acs/admin/ => generated 117967 bytes in 174 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 91/98] 172.16.0.14 () {44 vars in 832 bytes} [Thu Jul 16 09:09:59 2015] GET /acs/admin/ => generated 5473 bytes in 49 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 92/99] 172.16.0.14 () {44 vars in 832 bytes} [Thu Jul 16 09:10:00 2015] GET /acs/admin/ => generated 5473 bytes in 61 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 93/100] 172.16.0.14 () {42 vars in 797 bytes} [Thu Jul 16 09:10:05 2015] GET /acs/xmin => generated 2031 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 16284|app: 0|req: 94/101] 172.16.0.14 () {44 vars in 796 bytes} [Thu Jul 16 09:35:03 2015] GET /acs/ubran_info/ => generated 41 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)

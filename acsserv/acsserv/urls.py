@@ -18,6 +18,8 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    #xmin added 15/07/2015
-    #url(r'^xmin/', include('xmin_devel.xmin.urls')),
+
+    url(r'^ubran_info/', include('ubran_info.urls')),
+
+    url(r'^xmin/', include('xmin.urls')),
 ]
